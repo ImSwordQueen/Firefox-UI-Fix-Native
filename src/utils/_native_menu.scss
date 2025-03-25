@@ -49,25 +49,17 @@
 }
 
 @mixin WinNativeMenu($win-media: false) {
-  @if mode.isESR() {
     @media not (-moz-windows-non-native-menus) {
       @include _WinMedia($win-media) {
         @content;
       }
     }
-  }
 }
 
 @mixin WinNonNativeMenu($win-media: false) {
-  @if mode.isESR() {
     @media (-moz-windows-non-native-menus) {
       @include _WinMedia($win-media) {
         @content;
       }
     }
-  } @else {
-    @include _WinMedia(true) {
-      @content;
-    }
-  }
 }

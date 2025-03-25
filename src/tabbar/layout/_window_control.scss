@@ -54,9 +54,7 @@ See the above repository for updates as well as full license text. */
 
 @include OS($win) {
   :root[sizemode="maximized"]:is([tabsintitlebar], [customtitlebar]) {
-    @if mode.isESR() {
       --uc-titlebar-padding: 8px;
-    }
 
     #navigator-toolbox-background {
       margin-top: calc(-1 * var(--uc-titlebar-padding));

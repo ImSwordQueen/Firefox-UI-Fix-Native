@@ -98,7 +98,6 @@
 
   tree,
   treechildren::-moz-tree-row {
-    -moz-appearance: none !important;
     color: var(--in-content-text-color) !important;
     background-color: var(--in-content-table-background) !important;
     border: 1px solid var(--in-content-table-border-color) !important;

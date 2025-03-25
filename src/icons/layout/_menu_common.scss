@@ -43,7 +43,7 @@ $_initialMenus: selector.append(
 $_initialMenus: $_initialMenus + "," +
                 selector.nest($_initialMenus, "> .menu-iconic-left > .menu-iconic-icon");
 @mixin _initial_menus() {
-  -moz-appearance: none !important; /* Linux: menulist */
+
 }
 
 // Icon

@@ -85,9 +85,7 @@ $_os-media: map.merge(
 }
 
 @mixin WinClassic() {
-  @if mode.isESR() {
     @media (-moz-windows-classic) {
       @content;
     }
-  }
 }
